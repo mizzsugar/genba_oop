@@ -23,5 +23,5 @@ jobs:
         pip install poetry
         poetry install
     - name: flake8
-      run: | test-all
+      run: |
         make test-all
